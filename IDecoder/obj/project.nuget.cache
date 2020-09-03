@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OMSvyhTA92EtD4C9nshcZaCO3UQKqKDacMy3WE5ELfIvwmd/GZOapE2pxXUyhV3y6+523iqiw/aHqXvPqAuMOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\IDecoder\\IDecoder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
