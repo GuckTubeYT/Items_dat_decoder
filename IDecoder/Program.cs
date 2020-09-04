@@ -177,12 +177,13 @@ namespace IDecoder
 
 				len = Data[Mempos];
 				Mempos += 2;
-				string extraoptions2 = "";
+		    		byte[] extraoptions2b = new byte[len];
 				for (int j = 0; j < len; j++)
 				{
-					extraoptions2 += Data[Mempos];
+					extraoptions2b[j] = Data[Mempos];
 					Mempos++;
 				}
+		    		string extraoptions2 = Encoding.UTF8.GetString(extraoptions2b);
 
 				Mempos += 80;
 				string punchOptions = "";
